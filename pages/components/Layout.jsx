@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
         <title>PokeNext</title>
       </Head>
       <Navbar />
-      <main>{children}</main>
+      <main className="min-h-[70vh]">{children}</main>
       <Footer />
     </>
   );

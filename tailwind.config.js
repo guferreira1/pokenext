@@ -12,7 +12,11 @@ module.exports = {
       laptop: "1024px",
       desktop: "1280px",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: "Roboto, sans-serif",
+      },
+    },
   },
   plugins: [],
 };
