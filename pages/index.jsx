@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 // Components
-import Card from "./components/Card";
+import Card from "../components/Card";
 
 export const getStaticProps = async () => {
   const maxPokemons = 251;
